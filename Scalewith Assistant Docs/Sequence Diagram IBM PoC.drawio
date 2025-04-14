@@ -1,0 +1,97 @@
+<mxfile host="Electron" modified="2023-11-02T18:44:46.742Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="2F4IOauxLrZ_TxxOD24y" version="22.0.3" type="device">
+  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel dx="1036" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WyTNVGsTUoX4bNGDCmQ3-2" value="&lt;b&gt;LLM&lt;/b&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="740" y="70" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="WyTNVGsTUoX4bNGDCmQ3-5" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" parent="1" vertex="1">
+          <mxGeometry x="40" y="70" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="WyTNVGsTUoX4bNGDCmQ3-6" value="&lt;b&gt;stage1 mapping code&lt;/b&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="600" y="70" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="WyTNVGsTUoX4bNGDCmQ3-7" value="User" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="20" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WyTNVGsTUoX4bNGDCmQ3-8" value="watsonx &lt;b&gt;Discovery&lt;/b&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="320" y="70" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="WyTNVGsTUoX4bNGDCmQ3-38" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="WyTNVGsTUoX4bNGDCmQ3-8" vertex="1">
+          <mxGeometry x="45" y="50" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="WyTNVGsTUoX4bNGDCmQ3-9" value="watsonx &lt;b&gt;Assistant&lt;/b&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="160" y="70" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="WyTNVGsTUoX4bNGDCmQ3-32" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="WyTNVGsTUoX4bNGDCmQ3-9" vertex="1">
+          <mxGeometry x="45" y="50" width="10" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="WyTNVGsTUoX4bNGDCmQ3-14" value="Run stage1 for each company" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1.7;exitY=0.095;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="WyTNVGsTUoX4bNGDCmQ3-38" target="WyTNVGsTUoX4bNGDCmQ3-6" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="369.5" y="130" as="sourcePoint" />
+            <mxPoint x="599.5" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WyTNVGsTUoX4bNGDCmQ3-15" value="Send doc for enrichment" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" target="WyTNVGsTUoX4bNGDCmQ3-2" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="650" y="140" as="sourcePoint" />
+            <mxPoint x="680" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WyTNVGsTUoX4bNGDCmQ3-16" value="enriched 10k stored back in discovery" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" target="WyTNVGsTUoX4bNGDCmQ3-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790.5" y="160" as="sourcePoint" />
+            <mxPoint x="380" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WyTNVGsTUoX4bNGDCmQ3-17" value="Testing Environment Flow - Not Prod" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="300" y="10" width="229" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WyTNVGsTUoX4bNGDCmQ3-18" value="Query Assistant" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" target="WyTNVGsTUoX4bNGDCmQ3-9" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="190" as="sourcePoint" />
+            <mxPoint x="130" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WyTNVGsTUoX4bNGDCmQ3-21" value="Query Discovery" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" target="WyTNVGsTUoX4bNGDCmQ3-8" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="210" y="200" as="sourcePoint" />
+            <mxPoint x="290" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WyTNVGsTUoX4bNGDCmQ3-24" value="Stage 1:&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Purpose is to update existing 10ks in discovery with enriched versions from LLM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="60" y="480" width="661" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WyTNVGsTUoX4bNGDCmQ3-25" value="Stage 2:&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Customer queries, LLM invoked, gives response back based on enriched document" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="70" y="535" width="661" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WyTNVGsTUoX4bNGDCmQ3-26" value="Top &lt;i style=&quot;font-weight: bold;&quot;&gt;n &lt;/i&gt;passages" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="250" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WyTNVGsTUoX4bNGDCmQ3-27" value="gen. inferences" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" target="WyTNVGsTUoX4bNGDCmQ3-28" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="380" y="220" as="sourcePoint" />
+            <mxPoint x="450" y="219.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WyTNVGsTUoX4bNGDCmQ3-28" value="watsonx &lt;b&gt;Embedded LLM&lt;/b&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="460" y="70" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="WyTNVGsTUoX4bNGDCmQ3-30" value="Inferences generated" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" target="WyTNVGsTUoX4bNGDCmQ3-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="250" as="sourcePoint" />
+            <mxPoint x="420" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WyTNVGsTUoX4bNGDCmQ3-31" value="response" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" target="WyTNVGsTUoX4bNGDCmQ3-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="270" as="sourcePoint" />
+            <mxPoint x="130" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
